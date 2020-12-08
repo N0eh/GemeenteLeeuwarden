@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.logo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 55%;
+}
+
+.nav-item {
+    padding: 20px 25 px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+
+.zoekbalk {
+    float: center;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aanvraagformulier</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/form.css'>
+    <script src='../js/main.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul id="navigationBarList">
+        <img class = 'img' src='../img/leeuwarden-logo.png' width = '25%'>
+        <!-- <li><a href="#">Contact</a></li> -->
+    </ul>
+
+        <div class="column">
+            <a href="#" >Contact</a>
+            <button class="log_uit">Log uit</button>
+        </div>
+
+    <progress class="progressbar" value="25%" max="100%"></progress>
+
+    <div class="container">
+        <h1>1. Gegevens aanvrager</h1>
+        <h2 class="title">Persoonsgegevens</h2>
+        <form>
+            <div id="vnaam"> <span>Voornaam</span>
+                <input id = 'inputfirstname' type="text" value=''></div>
+             <div id="tvgls"> <span>Tussenvoegsel(s)</span>
+                <input type="text"></div>
+            <div id="anaam"> <span>Achternaam</span>
+                <input type="text"></div>
+            <div id="gbdatum"> <span>Geboortedatum</span>
+                <input type="number"></div>
+        </form>
+        <h2 class="title">Adresgegevens</h2>
+        <form>
+            <div id="stnaam"> <span>Straatnaam</span>
+                <input type="text"></div>
+             <div id="huisnmr"> <span>Huisnummer</span>
+                <input type="number"></div>
+            <div id="huisltr"> <span>Huisletter</span>
+                <input type="number"></div>
+            <div id="postcode"> <span>Postcode</span>
+                <input type="number"></div>
+            <div id="woonpts"> <span>Woonplaats</span>
+                <input type="number"></div>
+        </form>
+        <h2 class="title">Aanvullende gegevens</h2>
+        <form>
+            <div id="nmrthuis"> <span>Telefoonnummer (thuis)</span>
+                <input type="number"></div>
+             <div id="mnrwerk"> <span>Telefoonnummer (werk)</span>
+                <input type="number"></div>
+            <div id="nmrmobiel"> <span>Telefoonnummer (mobiel)</span>
+                <input type="number"></div>
+            <div id="email"> <span>Emailadres</span>
+                <input type="text"></div>
+        </form>
+        <button class="volgende" onclick='Test()'>Volgende</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    /* padding-left: 40%; */
+    /* margin-top: 2%; */
+    padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 30px;
+	width: 50%;
+}
+
+.container span {
+	padding-left: 10%;
+	display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.container input {
+	min-height: 25px;
+    display: inline-block;
+    /* padding-left: 50px; */
+	width: 50%;
+}
+
+input, textarea {
+    background-color: #F3F3F3;
+    color: #2F4F4F;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px #0D7DC2;
+    /* padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px; */
+    border: 1px solid #0D7DC2;
+}
+
+.log_uit {
+    background: #157DC1;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    width: 107px;
+    height: 32px;  
+}
+
+#navigationBarList{
+    display: inline-block;
+    margin: 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+   
+
+#navigationBarList li{
+    display: inline;
+    justify-content: space-around;
+    color: black;
+    padding-left: 60%;
+    padding-right: 10px;
+}
+
+#navigationBarList a{
+    font-family: Poppins;
+    font-size: 16px;
+    color: black;
+}
+
+.column {
+    float: right;
+    width: 10%;
+    padding-left: 0px;
+    align-content: right;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.progressbar {
+    width: 100%;
+    height: 25px;
+    color: #0D7DC2;
+    margin-top: 1%;
+}
+
+.volgende {    
+    margin-top: 2%;
+    border-radius: 7px;
+    border: none;
+    background-color: #0D7DC2;
+    color: white;
+    height: 45px;
+    width: 270px;
+    float: right;
+}
+
+.title {
+    padding-left: 10%;
+}
