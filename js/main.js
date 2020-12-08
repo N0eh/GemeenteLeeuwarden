@@ -14,3 +14,5 @@ function Test() {
 
     users.push(new User(inputfirstname, ))
 }
+
+console.log('ik ben nieuw geupdate')
