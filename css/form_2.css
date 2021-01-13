@@ -1,6 +1,20 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F4F4F4;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 55%;
+}
+
+.nav-item {
+    padding: 20px 25 px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -14,30 +28,31 @@ body {
 	width: 50%;
 }
 
-.container span {
-	padding-left: 10%;
-	display: inline-block;
-    vertical-align: top;
-    width: 30%;
-}
-
 .container input {
 	min-height: 25px;
-    display: inline-block;
-    /* padding-left: 50px; */
-	width: 50%;
+    /* display: inline-block; */
+    padding-left: 50px;
+    width: 50%;
 }
 
-input, textarea {
-    background-color: #F3F3F3;
+input {
+    background-color: white;
     color: #2F4F4F;
-    width: 250px;
-    height: 25px;
-    margin-bottom: 10px;
     border: none;
     border-radius: 7px;
     font-family: "Poppins", sans-serif;
     padding: 5px;
+}
+
+textarea {
+    background-color: white;
+    resize: none;
+    border: none;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+    width: 75%;
+    margin-bottom: 10px;
 }
 
 input[type=text]:focus, textarea:focus {
@@ -75,8 +90,13 @@ input[type=text]:focus, textarea:focus {
 
 #navigationBarList a{
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
+}
+
+.top-container {
+    background-color: white;
+    padding: 1%;
 }
 
 .column {
@@ -92,7 +112,7 @@ input[type=text]:focus, textarea:focus {
     width: 100%;
     height: 25px;
     color: #0D7DC2;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 .volgende {    
