@@ -1,0 +1,25 @@
+#myForm {
+    background: red;
+    border-radius: 21px; 
+    margin-top: 15%;
+    width: 502px;
+    height: 385px;  
+    padding-left: 0%; 
+}
+
+input {
+    display: inline-block;
+}
+
+.line {
+    display: block;
+    border: 2px;
+}
+
+article {
+    display: inline-block;
+}
+
+form {
+    font-family: "Poppins", sans-serif;
+}
