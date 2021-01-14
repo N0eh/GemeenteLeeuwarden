@@ -11,6 +11,62 @@
     <script src='main.js'></script>
 </head>
 <body>
+    <header>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+        <div style='width: 200px;'>
+            </div>
+            <div style = 'clear: both;'></div>
+
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item">
+                        <a href='#'>1. Gegevens</a>
+                </li>
+                <li class="nav-item-active">
+                    <a href='#'>2. Kaartgegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>3. Bijlagen</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>4. Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <progress class="progressbar" value="25" max="100"></progress>
+
+    <!-- <button class="tool" onclick="openForm()">Tool</button> -->
+    <main>
+        <h1>2.Kaartgegevens</h1>
+        <hr>  
+        <!-- <section> -->
+            <!-- <p></p>  -->
+            <section>
+
+           
+
+                <form action="/action_page.php">
     
+                    <p>Bent u eerder in het bezit geweest van een gehandicaptenkaart?</p>
+    
+                   
+    
+                    <input type="radio" id="ja" name="yes_no" value="yes_no">
+    
+                    <label for="ja">Ja</label><br>
+    
+                    <input type="radio" id="nee" name="yes_no" value="yes_no">
+    
+                    <label for="nee">Nee</label><br>
+                    </form>
+    
+            </section>
+
+        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
+        <button class="btn-next"><i class="fas fa-arrow-right"></i>Volgende</button>
+       
+    </main>
 </body>
 </html>

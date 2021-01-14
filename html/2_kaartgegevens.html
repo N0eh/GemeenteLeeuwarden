@@ -12,14 +12,17 @@
 </head>
 <body>
     <header>
-        <a href="#"><button class="log_uit">Log uit</button></a>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+        <div style='width: 200px;'>
+            </div>
+            <div style = 'clear: both;'></div>
 
         <nav>
             <ul class="nav-links">
                 <li class="nav-item">
                         <a href='#'>1. Gegevens</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item-active">
                     <a href='#'>2. Kaartgegevens</a>
                 </li>
                 <li class="nav-item">
@@ -36,16 +39,22 @@
 
     <!-- <button class="tool" onclick="openForm()">Tool</button> -->
     <main>
-        <h1>2. Kaartgegevens</h1>
-        <span class="line"></span>
+        <h1>2.Kaartgegevens</h1>
+        <hr>
         <section>
-            <h3>Wat is de aard van uw handicap en de reden van uw aanvraag?</h3>
+            <form>
+            <p>Wat is de aard van uw handicap en de reden van uw aanvraag?</p>
+    
+                <i class='fas fa-microphone fa-pull-left fa-3x'></i>
+                
+
         <textarea placeholder="Typ hier uw antwoord" cols="30" rows="5"></textarea>
+        </form>
         </section>
 
        
-        <button class="btn-back"><i class="fas fa-arrow-left">Terug</button></i>
-        <button class="btn-next"><i class="fas fa-arrow-right">Volgende</button></i>
+        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
+        <button class="btn-next"><i class="fas fa-arrow-right"></i>Volgende</button>
        
     </main>
     
