@@ -8,6 +8,29 @@ header {
     background-color: white;
     padding: 1%;
 }
+.nav-item-active {
+    padding: 20px 25px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0D7DC2;
+}
+
+/* .nav-item-active a {​​​​​​​
+    font-size: 20px;
+    text-decoration: none;
+    color: #0D7DC2;
+}​​​​​​​ */
+
+hr{
+    height: 1px;
+    border: 2px;
+    color: rgb(133, 133, 133);
+    background-color:rgb(133, 133, 133);
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 section {
     font-family: "Poppins", sans-serif;
@@ -17,6 +40,7 @@ section {
 	line-height: 30px;
 	width: 50%;
 }
+
 p {
     font-family: "Poppins", sans-serif;
     color: black;
@@ -26,6 +50,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: bold;
+    color:#157DC1 ;
     padding: 30px;
 	margin: auto;
 	/* margin-top: 20px; */
@@ -37,11 +62,13 @@ h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: bold;
+    position: relative;
+    bottom: 60px;
 }
 
 a:hover {
     text-decoration: underline;
-}
+    }
 
 a:active {
     font-weight: bold;
@@ -58,15 +85,17 @@ a:active {
 }
 
 .log_uit {
-    background: #157DC1;
-    border-radius: 16px;
     border: none;
-    color: white;
-    width: 107px;
-    height: 32px;
+
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #157DC1;
+
     float: right;
-    margin: 1%;  
+
+    margin: 1%;
+
+    background-color: #ffffff; 
 }
 
 
@@ -79,7 +108,7 @@ a:active {
 }
 
 .nav-item {
-    padding: 20px 25 px;
+    padding: 20px 25px;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
 }
@@ -87,8 +116,23 @@ a:active {
 .nav-item a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
+
+.nav-item-active {
+    padding: 20px 25px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0D7DC2;
+   }
+
+.nav-item-active a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0D7DC2;
+   }
+
 
 .line {
     border: 2px solid white;
@@ -136,16 +180,22 @@ i {
 
 .btn-back {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
     border: none;
     background-color: #F4F4F4;
     color: black;
+    position: relative;
+    left: 43%;
 }
 
 .btn-next {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
     background: #FFFFFF;
     border: 1px solid #157DC1;
     box-sizing: border-box;
     border-radius: 4px;
     color: black;
+    position: relative;
+    left: 45%;
 }
