@@ -8,9 +8,75 @@
     <script src="https://kit.fontawesome.com/3d23c8b234.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/1_gegevens.css'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    <script src='main.js'></script>
+    <script src='../js/main.js'></script>
 </head>
 <body>
-    
+    <header>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item-active">
+                        <a href='#'>1. Gegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>2. Kaartgegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>3. Bijlagen</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>4. Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <progress class="progressbar" value="0" max="100"></progress>
+
+    <main>
+        <h1>1. Gegevens aanvrager</h1>
+        <hr>
+        <h2 class="title">Persoonsgegevens</h2>
+        <form>
+            <span id="firstname">Voornaam</span>
+                <input id = 'inputfirstname' type="text" value='' required>
+            <span id="middlename">Tussenvoegsel(s)</span>
+                <input id = "inputmiddlename" type="text" value='' required>
+            <span id="lastname">Achternaam</span>
+                <input id = "inputlastname" type="text" value='' required>
+            <span id="dateofbirth">Geboortedatum</span>
+                <input id = "inputdateofbirth" type="number" value='' required>
+        </form>
+        <h2 class="title">Adresgegevens</h2>
+        <form>
+            <span id="streetname">Straatnaam</span>
+                <input id = "inputstreetname" type="text" value='' required>
+            <span id="housenumber">Huisnummer</span>
+                <input id = "inputhousenumber" type="number" value='' required>
+            <span id="houseletter">Huisletter</span>
+                <input id = "inputhouseletter" type="text" value='' required>
+            <span id="postalcode">Postcode</span>
+                <input id = "inputpostalcode" type="text" value='' required>
+            <span id="residense">Woonplaats</span>
+                <input id = "inputresidense" type="text" value='' required>
+        </form>
+        <h2 class="title">Aanvullende gegevens</h2>
+        <form>
+            <span id="phonenumberhome">Telefoonnummer (thuis)</span>
+                <input id = "inputphonenumberhome" type="tel" value='' required>
+            <span id="phonenumberwork">Telefoonnummer (werk)</span>
+                <input id = "inputphonenumberwork" type="tel" value='' required>
+            <span id="phonenumbermobile">Telefoonnummer (mobiel)</span>
+                <input id = "inputphonenumbermobile" type="tel" value='' required>
+             <span id="email">Emailadres</span>
+                <input id = "inputemail" type="text" value='' required>
+        </form>
+        <a href="#"><button class="volgende" onclick='Test()'>Input</button></a>
+
+        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
+        <button class="btn-next"><i class="fas fa-arrow-right"></i>Volgende</button>
+
+    </main>
 </body>
 </html>
