@@ -34,29 +34,6 @@ h1 {
 	width: 50%;
 }
 
-h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color:#000000 ;
-    padding: 30px;
-    position: relative;
-    left: 50px;
-    bottom: 90px;
-	margin: auto;
-	/* margin-top: 20px; */
-	line-height: 30px;
-	width: 50%;
-}
-
-h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    bottom: 60px;
-}
-
 a:hover {
     text-decoration: underline;
     }
@@ -65,7 +42,7 @@ a:active {
     font-weight: bold;
 }
 
-.tool {
+/* .tool {
     background: #157DC1;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
@@ -73,7 +50,7 @@ a:active {
     width: 146px;
     height: 93px;
     margin-top: 15%;
-}
+} */
 
 .log_uit {
     border: none;
@@ -119,9 +96,19 @@ a:active {
     color: #0D7DC2;
    }
 
-.line {
+/* .line {
     border: 2px solid white;
-    width: 922px;
+    width: 100%
+} */
+
+hr {
+    height:1px; 
+    border:2px; 
+    color:rgb(133, 133, 133); 
+    background-color:rgb(168, 168, 168); 
+    width: 50%; 
+    text-align:center; 
+    margin: 0 auto;
 }
 
 .progressbar {

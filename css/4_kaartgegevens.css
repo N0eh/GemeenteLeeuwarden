@@ -9,28 +9,12 @@ header {
     padding: 1%;
 }
 
-.nav-item-active {
-    padding: 20px 25px;
-    justify-content: space-around;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    color:#157DC1;
-    text-decoration: none;
-}
-
-/* .nav-item-active-a {
-    font-size: 20px;
-    text-decoration: none;
-    color:#157DC1;
-} */
-
-
 hr {
     height: 1px; 
     border: 2px; 
     color:rgb(133, 133, 133); 
     background-color:rgb(168, 168, 168); 
-    width: 60%; 
+    width: 50%; 
     text-align: center; 
     margin: 0 auto;
 }
@@ -113,10 +97,24 @@ i.fa {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-item-active {
+    padding: 20px 25 px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0D7DC2;
+}
+
 .nav-item a {
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+.nav-item-active a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0D7DC2;
 }
 
 .line {
@@ -194,6 +192,7 @@ i {
     position: relative;
     left: 43%;
     font-size: 16px;
+    
 }
 
 .btn-next {

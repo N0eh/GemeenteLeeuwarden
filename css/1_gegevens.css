@@ -147,6 +147,8 @@ hr {
     color: black;
     position: relative;
     left: 43%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .btn-next {
@@ -159,4 +161,6 @@ hr {
     color: black;
     position: relative;
     left: 45%;
+    margin-top: 2%;
+    margin-bottom: 5%;;
 }
