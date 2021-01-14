@@ -11,6 +11,56 @@
     <script src='main.js'></script>
 </head>
 <body>
+
+    <header>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item">
+                        <a href='#'>1. Gegevens</a>
+                </li>
+                <li class="nav-item-active">
+                    <a href='#'>2. Kaartgegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>3. Bijlagen</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>4. Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <progress class="progressbar" value="25" max="100"></progress>
+
+    <!-- <button class="tool" onclick="openForm()">Tool</button> -->
+    <main>
+        
+        <h1>2. Kaartgegevens</h1>
+        
+        <hr>
+
+        <section>
+           
+            <form action="/action_page.php">
+
+                <p>Welk type parkeerkaart moet u hebben?</p>
+               
+                <input type="radio" id="bestuurderskaart" name="kaart" value="bestuurderskaart">
+                <label for="bestuurderskaart">Bestuurderskaart</label><br>
+                <input type="radio" id="passagierskaart" name="kaart" value="passagierskaart">
+                <label for="passagierskaart">Passagierskaart</label><br>
+                <input type="radio" id="instellingskaart" name="kaart" value="instellingskaart">
+                <label for="instellingskaart">Instellingskaart</label>
+                </form>
+        </section>
+
+       
+        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
+        <button class="btn-next"><i class="fas fa-arrow-right fa-fw fa-pull-right"></i>Volgende</button>
+       
+    </main>
     
 </body>
 </html>
