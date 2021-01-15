@@ -2,64 +2,64 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F4F4F4;
-}
-
+  }
+  
 header {
     background-color: white;
     padding: 1%;
 }
-
+  
 
 hr {
-    height:1px; 
-    border:2px; 
-    color:rgb(133, 133, 133); 
-    background-color:rgb(168, 168, 168); 
-    width:50%; 
-    text-align:center; 
+    height: 1px;
+    border: 2px;
+    color: rgb(133, 133, 133);
+    background-color: rgb(168, 168, 168);
+    width: 50%;
+    text-align: center;
     margin: 0 auto;
-}
-
+  }
+  
 section {
     font-family: "Poppins", sans-serif;
     padding: 10px;
-	margin: auto;
-	margin-top: 10px;
-	width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
 }
-
+  
 p {
     font-family: "Poppins", sans-serif;
     color: black;
     font-weight: bold;
 }
-
+  
 h1 {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: bold;
     padding: 30px;
-	margin: auto;
-	/* margin-top: 20px; */
-	line-height: 30px;
+    margin: auto;
+    /* margin-top: 20px; */
+    line-height: 30px;
     width: 50%;
-    color: #157DC1; 
+    color: #157DC1;
 }
-
+  
 h3 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
-
+  
 a:hover {
     text-decoration: underline;
 }
-
+  
 a:active {
     font-weight: bold;
 }
-
+  
 .tool {
     background: #157DC1;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.06);
@@ -68,8 +68,8 @@ a:active {
     width: 146px;
     height: 93px;
     margin-top: 15%;
-}
-
+  }
+  
 .log_uit {
     border: none;
     font-family: "Poppins", sans-serif;
@@ -79,8 +79,8 @@ a:active {
     font-size: 16px;
     color: #157DC1;
 }
-
-
+  
+  
 .nav-links {
     list-style: none;
     display: flex;
@@ -114,19 +114,19 @@ a:active {
     text-decoration: none;
     color: #0D7DC2;
 }
-
-/* .line {
+  
+.line {
     border: 2px solid white;
     width: 922px;
-} */
-
+}
+  
 .progressbar {
     width: 100%;
     height: 25px;
     color: #0D7DC2;
     /* margin-top: 1%; */
 }
-
+  
 input {
     background-color: white;
     color: #2F4F4F;
@@ -136,7 +136,7 @@ input {
     font-size: 18px;
     padding: 10px;
 }
-
+  
 textarea {
     background-color: white;
     resize: none;
@@ -147,18 +147,19 @@ textarea {
     width: 75%;
     margin-bottom: 10px;
 }
-
-input[type=text]:focus, textarea:focus {
+  
+input[type=text]:focus,
+  textarea:focus {
     box-shadow: 0 0 5px #0D7DC2;
     /* padding: 3px 0px 3px 3px;
-    margin: 5px 1px 3px 0px; */
+      margin: 5px 1px 3px 0px; */
     border: 1px solid #0D7DC2;
 }
-
+  
 i {
     color: #0D7DC2;
 }
-
+  
 .btn-back {
     font-family: "Poppins", sans-serif;
     border: none;
@@ -168,7 +169,7 @@ i {
     left: 43%;
     font-size: 16px;
 }
-
+  
 .btn-next {
     font-family: "Poppins", sans-serif;
     background: #FFFFFF;
@@ -179,4 +180,51 @@ i {
     position: relative;
     left: 45%;
     font-size: 16px;
+  
 }
+  
+  
+label,
+  input {
+    font-family: "Poppins", sans-serif;
+}
+  
+  
+label {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+  
+  /* Hide the file input using
+  opacity */
+[type=file] {
+    position: relative;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width: 0%;
+}
+  
+input,
+  [type=file]+label {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    margin: 0;
+    left: 0;
+    position: relative;
+    padding: 20px;
+}
+  
+[type=file]+label {
+    text-align: left;
+    background: white;
+    color: #157DC1;
+    border-color: #157DC1;
+    cursor: pointer;
+}
+  
+[type=file]+label:hover {
+    background: #3399ff;
+}
+  
+  

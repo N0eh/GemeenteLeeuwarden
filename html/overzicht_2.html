@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Overzicht Kaartgegevens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://kit.fontawesome.com/3d23c8b234.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/overzicht_2.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script src='../js/main.js'></script>
+</head>
+<body>
+    <header>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href='#'>1. Gegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='1_kaartgegevens.html'>2. Kaartgegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='bijlagen.html'>3. Bijlagen</a>
+                </li>
+                <li class="nav-item-active">
+                    <a href='#'>4. Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <progress class="progressbar" value="100" max="100"></progress>
+
+    <main>
+        <h1>4. Overzicht</h1>
+        <hr>
+        <p tabindex="0">Hieronder ziet u een samenvatting van de door u ingevulde gegevens. 
+            Zijn de gegevens onjuist of onvolledig klik dan op de knop Vorige en ga naar het betreffende scherm om de gegevens aan te passen. 
+            Indien u akkoord gaat met deze gegevens, dan vinkt u dit onderaan de pagina aan en klikt u vervolgens op Verzenden.</p>
+        
+        <section>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href='../html/overzicht.html'>1. Gegevens</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href='../html/overzicht_2.html'>2. Kaartgegevens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href='#'>3. Bijlagen</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <h1>2. Kaartgegevens</h1>
+            <section>
+
+                <form action="/action_page.php">
+    
+                    <p tabindex="0">Bent u eerder in het bezit geweest van een gehandicaptenkaart?</p>
+    
+                    <input type="radio" id="ja" name="yes_no" value="yes_no">
+    
+                    <label for="ja">Ja</label><br>
+    
+                    <input type="radio" id="nee" name="yes_no" value="yes_no">
+    
+                    <label for="nee">Nee</label><br>
+                    <p>Wat is de aard van uw handicap en de reden van uw aanvraag?</p>
+                    
+                        <i class='fas fa-microphone fa-pull-left fa-3x'></i>
+                                
+                        <textarea placeholder="Typ hier uw antwoord" cols="30" rows="5"></textarea>
+
+                        <p>Welk type parkeerkaart moet u hebben?</p>
+                           
+                        <input type="radio" id="bestuurderskaart" name="kaart" value="bestuurderskaart">
+                        <label for="bestuurderskaart">Bestuurderskaart</label><br>
+                        <input type="radio" id="passagierskaart" name="kaart" value="passagierskaart">
+                        <label for="passagierskaart">Passagierskaart</label><br>
+                        <input type="radio" id="instellingskaart" name="kaart" value="instellingskaart">
+                        <label for="instellingskaart">Instellingskaart</label>
+                   
+                
+                </form>
+                    
+                       
+                        
+                 
+                 
+            </section>
+        
+
+       
+        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
+        <a href="1_kaartgegevens.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Verzenden</button></a>
+
+    </main>
+</body>
+</html>

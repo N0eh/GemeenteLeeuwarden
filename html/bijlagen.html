@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <!--Kaartgegevens 3-->
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bijlagen</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://kit.fontawesome.com/3d23c8b234.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/bijlagen.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script src='../js/bijlagen.js'></script>
+  </head>
+
+  <body>
+
+    <header>
+        <button class="log_uit"><i class="fas fa-sign-out-alt fa-fw fa-pull-right"></i>Log uit</button>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item">
+                        <a href='1_gegevens.html'>1. Gegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a href='1_kaartgegevens.html'>2. Kaartgegevens</a>
+                </li>
+                <li class="nav-item-active">
+                    <a href='#'>3. Bijlagen</a>
+                </li>
+                <li class="nav-item">
+                    <a href='#'>4. Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <progress class="progressbar" value="75" max="100"></progress>
+
+    <!-- <button class="tool" onclick="openForm()">Tool</button> -->
+    <main>
+
+      <h1>3. Bijlagen</h1>
+
+      <hr>
+
+      <section>
+
+        <form action="/action_page.php">
+
+          <p>Voor de gehandicaptenkaart is een pasfoto vereist</p>
+
+          <p>Hoe wilt u de pasfoto meesturen?</p>
+
+          <input type="radio" id="digitaal" name="pasfoto" value="digitaal" checked>
+          <label for="digitaal">Ik stuur de pasfoto digitaal</label><br>
+          <input type="radio" id="post" name="pasfoto" value="post">
+          <label for="post">Ik stuur de pasfoto per post</label><br>
+
+        </form>
+
+        <form>
+
+          <p>Upload uw foto</p>
+          <input id="f02" type="file" placeholder="Add profile picture" />
+          <label for="f02">Sleep uw foto hier of upload uw foto vanaf uw bestanden</label>
+        </form>
+
+      </section>
+
+
+      <a href="4_kaartgegevens.html"><button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button></a>
+      <button class="btn-next"><i class="fas fa-arrow-right"></i>Volgende</button>
+
+    </main>
+
+  </body>
+
+</html>
+
