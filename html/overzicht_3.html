@@ -17,7 +17,7 @@
         <nav>
             <ul class="nav-links">
                 <li class="nav-item">
-                    <a href='#'>1. Gegevens</a>
+                    <a href='1_gegevens.html'>1. Gegevens</a>
                 </li>
                 <li class="nav-item">
                     <a href='1_kaartgegevens.html'>2. Kaartgegevens</a>
@@ -31,7 +31,68 @@
             </ul>
         </nav>
     </header>
+
+   
     
     <progress class="progressbar" value="100" max="100"></progress>
+
+    <main>
+
+
+        <h1>4. Overzicht</h1>
+        <hr>
+        <p tabindex="0">Hieronder ziet u een samenvatting van de door u ingevulde gegevens. 
+            Zijn de gegevens onjuist of onvolledig klik dan op de knop Vorige en ga naar het betreffende scherm om de gegevens aan te passen. 
+            Indien u akkoord gaat met deze gegevens, dan vinkt u dit onderaan de pagina aan en klikt u vervolgens op Verzenden.</p>
+        
+        <section>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href='../html/overzicht_1.html'>1. Gegevens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href='../html/overzicht_2.html'>2. Kaartgegevens</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href='#'>3. Bijlagen</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+
+        <h2>3. Bijlagen</h2>
+
+        <hr>
+  
+        <section></section>
+  
+          <form action="/action_page.php">
+  
+            <p>Voor de gehandicaptenkaart is een pasfoto vereist</p>
+  
+            <p>Hoe wilt u de pasfoto meesturen?</p>
+  
+            <input type="radio" id="digitaal" name="pasfoto" value="digitaal" checked>
+            <label for="digitaal">Ik stuur de pasfoto digitaal</label><br>
+            <input type="radio" id="post" name="pasfoto" value="post">
+            <label for="post">Ik stuur de pasfoto per post</label><br>
+  
+          </form>
+  
+          <form>
+  
+            <p>Upload uw foto</p>
+            <input id="f02" type="file" placeholder="Add profile picture" />
+            <label for="f02">Sleep uw foto hier of upload uw foto vanaf uw bestanden</label>
+          </form>
+  
+        </section>
+
+        <a href="verstuurd.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Verzenden</button></a>
+        
+    </main>
+
 </body>
 </html>

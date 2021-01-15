@@ -17,7 +17,7 @@
         <nav>
             <ul class="nav-links">
                 <li class="nav-item">
-                    <a href='#'>1. Gegevens</a>
+                    <a href='1_gegevens.html'>1. Gegevens</a>
                 </li>
                 <li class="nav-item">
                     <a href='1_kaartgegevens.html'>2. Kaartgegevens</a>
@@ -35,7 +35,8 @@
     <progress class="progressbar" value="100" max="100"></progress>
 
     <main>
-        <h1>4. Overzicht</h1>
+       
+       <section> <h1>4. Overzicht</h1>
         <hr>
         <p tabindex="0">Hieronder ziet u een samenvatting van de door u ingevulde gegevens. 
             Zijn de gegevens onjuist of onvolledig klik dan op de knop Vorige en ga naar het betreffende scherm om de gegevens aan te passen. 
@@ -45,60 +46,60 @@
             <nav>
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href='../html/overzicht.html'>1. Gegevens</a>
+                        <a href='../html/overzicht_1.html'>1. Gegevens</a>
                     </li>
                     <li class="nav-item-active">
                         <a href='../html/overzicht_2.html'>2. Kaartgegevens</a>
                     </li>
                     <li class="nav-item">
-                        <a href='#'>3. Bijlagen</a>
+                        <a href='../html/overzicht_3.html'>3. Bijlagen</a>
                     </li>
                 </ul>
             </nav>
-        </section>
+        
 
-        <h1>2. Kaartgegevens</h1>
-            <section>
+                <h2>2. Kaartgegevens</h2>
+
+                <hr>
 
                 <form action="/action_page.php">
     
                     <p tabindex="0">Bent u eerder in het bezit geweest van een gehandicaptenkaart?</p>
-    
                     <input type="radio" id="ja" name="yes_no" value="yes_no">
-    
-                    <label for="ja">Ja</label><br>
-    
+                    <label for="ja">Ja</label>
                     <input type="radio" id="nee" name="yes_no" value="yes_no">
-    
-                    <label for="nee">Nee</label><br>
-                    <p>Wat is de aard van uw handicap en de reden van uw aanvraag?</p>
-                    
-                        <i class='fas fa-microphone fa-pull-left fa-3x'></i>
-                                
-                        <textarea placeholder="Typ hier uw antwoord" cols="30" rows="5"></textarea>
+                    <label for="nee">Nee</label>
+            
+                              
+                        <p>Wat is de aard van uw handicap en de reden van uw aanvraag?</p>
+                            <i class='fas fa-microphone fa-pull-left fa-3x'></i>
+                            
+            
+                    <textarea placeholder="Typ hier uw antwoord" cols="30" rows="5"></textarea>
 
-                        <p>Welk type parkeerkaart moet u hebben?</p>
-                           
-                        <input type="radio" id="bestuurderskaart" name="kaart" value="bestuurderskaart">
-                        <label for="bestuurderskaart">Bestuurderskaart</label><br>
-                        <input type="radio" id="passagierskaart" name="kaart" value="passagierskaart">
-                        <label for="passagierskaart">Passagierskaart</label><br>
-                        <input type="radio" id="instellingskaart" name="kaart" value="instellingskaart">
-                        <label for="instellingskaart">Instellingskaart</label>
-                   
-                
+                    <p>Welk type parkeerkaart moet u hebben?</p>
+               
+                    <input type="radio" id="bestuurderskaart" name="kaart" value="bestuurderskaart">
+                    <label for="bestuurderskaart">Bestuurderskaart</label><br>
+                    <input type="radio" id="passagierskaart" name="kaart" value="passagierskaart">
+                    <label for="passagierskaart">Passagierskaart</label><br>
+                    <input type="radio" id="instellingskaart" name="kaart" value="instellingskaart">
+                    <label for="instellingskaart">Instellingskaart</label>
+
                 </form>
-                    
-                       
-                        
-                 
-                 
-            </section>
-        
 
-       
-        <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
-        <a href="1_kaartgegevens.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Verzenden</button></a>
+                    <span id="firstname">Naam huisarts</span>
+                    <input id = 'name' type="text" value=''>
+                <span id="middlename">Telefoon huisarts</span>
+                    <input id = "telefoon" type="text" value=''>
+
+                   
+                  
+    
+            </section>
+                                                                              
+        
+        <a href="verstuurd.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Verzenden</button></a>
 
     </main>
 </body>
