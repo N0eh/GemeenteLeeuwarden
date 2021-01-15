@@ -9,65 +9,14 @@ header {
     padding: 1%;
 }
 
-
 hr {
     height:1px; 
     border:2px; 
     color:rgb(133, 133, 133); 
     background-color:rgb(168, 168, 168); 
-    width:50%; 
+    width:100%; 
     text-align:center; 
     margin: 0 auto;
-}
-
-section {
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-	margin: auto;
-	margin-top: 10px;
-	width: 50%;
-}
-
-p {
-    font-family: "Poppins", sans-serif;
-    color: black;
-    font-weight: bold;
-}
-
-h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 30px;
-	margin: auto;
-	/* margin-top: 20px; */
-	line-height: 30px;
-    width: 50%;
-    color: #157DC1; 
-}
-
-h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    font-weight: bold;
-}
-
-.tool {
-    background: #157DC1;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.06);
-    border-radius: 7px;
-    border: none;
-    width: 146px;
-    height: 93px;
-    margin-top: 15%;
 }
 
 .log_uit {
@@ -75,9 +24,9 @@ a:active {
     font-family: "Poppins", sans-serif;
     float: right;
     margin: 1%;
-    background-color: #ffffff;
+    background-color: #ffffff; 
+    color: #0D7DC2;
     font-size: 16px;
-    color: #157DC1;
 }
 
 
@@ -114,11 +63,6 @@ a:active {
     text-decoration: none;
     color: #0D7DC2;
 }
-
-/* .line {
-    border: 2px solid white;
-    width: 922px;
-} */
 
 .progressbar {
     width: 100%;
@@ -159,18 +103,46 @@ i {
     color: #0D7DC2;
 }
 
+main {
+    font-family: "Poppins", sans-serif;
+    /* padding-left: 40%; */
+    /* margin-top: 2%; */
+    padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 30px;
+	width: 50%;
+}
+
+h1 {
+   color: #0D7DC2;
+   margin-bottom: 5%;
+}
+
+
+span {
+	padding-left: 10%;
+	display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 2%;
+}
+
 .btn-back {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
     border: none;
     background-color: #F4F4F4;
     color: black;
     position: relative;
     left: 43%;
-    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .btn-next {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
     background: #FFFFFF;
     border: 1px solid #157DC1;
     box-sizing: border-box;
@@ -178,5 +150,6 @@ i {
     color: black;
     position: relative;
     left: 45%;
-    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 5%;;
 }
