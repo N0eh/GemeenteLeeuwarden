@@ -3,10 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Persoonsgegevens</title>
+    <title>Overzicht gegevens</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="https://kit.fontawesome.com/3d23c8b234.js" crossorigin="anonymous"></script>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/1_gegevens.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/overzicht_1.css'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <script src='../js/main.js'></script>
 </head>
@@ -16,7 +16,7 @@
 
         <nav>
             <ul class="nav-links">
-                <li class="nav-item-active">
+                <li class="nav-item">
                     <a href='#'>1. Gegevens</a>
                 </li>
                 <li class="nav-item">
@@ -25,19 +25,39 @@
                 <li class="nav-item">
                     <a href='bijlagen.html'>3. Bijlagen</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item-active">
                     <a href='#'>4. Overzicht</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <progress class="progressbar" value="0" max="100"></progress>
+    <progress class="progressbar" value="100" max="100"></progress>
 
     <main>
-        <h1>1. Gegevens aanvrager</h1>
+        <h1>4. Overzicht</h1>
         <hr>
-        <h2 class="title">Persoonsgegevens</h2>
+        <p tabindex="0">Hieronder ziet u een samenvatting van de door u ingevulde gegevens. 
+            Zijn de gegevens onjuist of onvolledig klik dan op de knop Vorige en ga naar het betreffende scherm om de gegevens aan te passen. 
+            Indien u akkoord gaat met deze gegevens, dan vinkt u dit onderaan de pagina aan en klikt u vervolgens op Verzenden.</p>
+        
+        <section>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-item-active">
+                        <a href='#'>1. Gegevens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href='#'>2. Kaartgegevens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href='#'>3. Bijlagen</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+            <h2 class="title">Persoonsgegevens</h2>
         <form>
             <span id="firstname">Voornaam</span>
                 <input id = 'inputfirstname' type="text" value='' required>
@@ -72,11 +92,11 @@
              <span id="email">Emailadres</span>
                 <input id = "inputemail" type="text" value='' required>
         </form>
-        <a href="#"><button class="volgende" onclick='Test()'>Input</button></a>
+        
 
        
         <button class="btn-back"><i class="fas fa-arrow-left"></i>Terug</button>
-        <a href="1_kaartgegevens.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Volgende</button></a>
+        <a href="1_kaartgegevens.html"><button class="btn-next"><i class="fas fa-arrow-right"></i>Verzenden</button></a>
 
     </main>
 </body>
